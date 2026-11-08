@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="624" viewBox="0 0 940 624" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+  <rect width="940" height="624" rx="10" fill="#0d1117"/>
+  <rect width="940" height="28" rx="10" fill="#161b22"/>
+  <rect y="18" width="940" height="10" fill="#161b22"/>
+  <circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+  <text x="20" y="44" fill="#56d364" xml:space="preserve">$ npm run scan -- HovdB6…pump --lang en</text>
+  <text x="20" y="64" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="84" fill="#c9d1d9" xml:space="preserve">Token: HovdB6wEhebcqP37973FxhL4LdAWjDf7Z1M3rqvdpump</text>
+  <text x="20" y="104" fill="#c9d1d9" xml:space="preserve">Created: 2026-11-08 10:17:11 UTC, slot 466878387</text>
+  <text x="20" y="124" fill="#c9d1d9" xml:space="preserve">Dev: GQPKqpfEm3SmqGVJCyFjd5icjyFuBSD84EbaUzky2ksi (39 txs ever, funded by Bynz…sGof)</text>
+  <text x="20" y="144" fill="#c9d1d9" xml:space="preserve">Dev bought at launch: 2.7%, holds now: 0.0%</text>
+  <text x="20" y="164" fill="#c9d1d9" xml:space="preserve">Dev launches in the last 39 txs: 3</text>
+  <text x="20" y="184" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="204" fill="#ff7b72" font-weight="700" xml:space="preserve">🔴 Risk: 65/100, high</text>
+  <text x="20" y="224" fill="#c9d1d9" xml:space="preserve">  • Bundle: 4 wallets bought in the creation slot, holding 5.1% of supply</text>
+  <text x="20" y="244" fill="#c9d1d9" xml:space="preserve">  • Dev sold the whole launch buy within seconds: a quick rug</text>
+  <text x="20" y="264" fill="#c9d1d9" xml:space="preserve">  • Early buyers linked to the dev (funded by the dev or the dev's funder): 5</text>
+  <text x="20" y="284" fill="#c9d1d9" xml:space="preserve">  • Early buyers funded from shared wallets: 4</text>
+  <text x="20" y="304" fill="#c9d1d9" xml:space="preserve">  • Serial dev: launches in the last 39 transactions: 3</text>
+  <text x="20" y="324" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="344" fill="#c9d1d9" xml:space="preserve">Early buyers:</text>
+  <text x="20" y="364" fill="#8b949e" xml:space="preserve">  Bynz…sGof  1.4%  txs: 479  from: —  [linked to dev]</text>
+  <text x="20" y="384" fill="#8b949e" xml:space="preserve">  3xfN…a5zC  1.3%  txs: 13  from: Bynz…sGof  [bundle]  [linked to dev]</text>
+  <text x="20" y="404" fill="#8b949e" xml:space="preserve">  HNXJ…S2Xy  1.3%  txs: 12  from: Bynz…sGof  [bundle]  [linked to dev]</text>
+  <text x="20" y="424" fill="#8b949e" xml:space="preserve">  81SZ…Aeex  1.3%  txs: 14  from: Bynz…sGof  [bundle]  [linked to dev]</text>
+  <text x="20" y="444" fill="#8b949e" xml:space="preserve">  Bs9K…vpPB  1.2%  txs: 13  from: Bynz…sGof  [bundle]  [linked to dev]</text>
+  <text x="20" y="464" fill="#8b949e" xml:space="preserve">  BBun…8NFk  1.2%  txs: 249  from: —</text>
+  <text x="20" y="484" fill="#8b949e" xml:space="preserve">  Eiru…tCnF  1.2%  txs: 243  from: FKV1…7wcy</text>
+  <text x="20" y="504" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="524" fill="#c9d1d9" xml:space="preserve">Shared funding sources:</text>
+  <text x="20" y="544" fill="#8b949e" xml:space="preserve">  Bynz…sGof → wallets 4: 3xfN…a5zC, HNXJ…S2Xy, 81SZ…Aeex, Bs9K…vpPB</text>
+  <text x="20" y="564" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="584" fill="#79c0ff" xml:space="preserve">Solscan: https://solscan.io/token/HovdB6wEhebcqP37973FxhL4LdAWjDf7Z1M3rqvdpump</text>
+</svg>

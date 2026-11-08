@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="624" viewBox="0 0 940 624" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+  <rect width="940" height="624" rx="10" fill="#0d1117"/>
+  <rect width="940" height="28" rx="10" fill="#161b22"/>
+  <rect y="18" width="940" height="10" fill="#161b22"/>
+  <circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+  <text x="20" y="44" fill="#56d364" xml:space="preserve">$ npm run scan -- HovdB6…pump</text>
+  <text x="20" y="64" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="84" fill="#c9d1d9" xml:space="preserve">Токен: HovdB6wEhebcqP37973FxhL4LdAWjDf7Z1M3rqvdpump</text>
+  <text x="20" y="104" fill="#c9d1d9" xml:space="preserve">Создан: 08.11.2026, 13:17:11 МСК, слот 466878387</text>
+  <text x="20" y="124" fill="#c9d1d9" xml:space="preserve">Дев: GQPKqpfEm3SmqGVJCyFjd5icjyFuBSD84EbaUzky2ksi (39 транзакций за всё время, пополнен с Bynz…sGof)</text>
+  <text x="20" y="144" fill="#c9d1d9" xml:space="preserve">Дев купил на старте: 2.7%, держит сейчас: 0.0%</text>
+  <text x="20" y="164" fill="#c9d1d9" xml:space="preserve">Запусков у дева в последних 39 транзакциях: 3</text>
+  <text x="20" y="184" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="204" fill="#ff7b72" font-weight="700" xml:space="preserve">🔴 Риск: 65/100, высокий</text>
+  <text x="20" y="224" fill="#c9d1d9" xml:space="preserve">  • Бандл: в слоте создания купили кошельков: 4, у них 5.1% саплая</text>
+  <text x="20" y="244" fill="#c9d1d9" xml:space="preserve">  • Дев слил всю свою покупку в первые секунды: быстрый раг</text>
+  <text x="20" y="264" fill="#c9d1d9" xml:space="preserve">  • Ранние покупатели, связанные с девом (SOL от дева или с того же кошелька): 5</text>
+  <text x="20" y="284" fill="#c9d1d9" xml:space="preserve">  • Ранние покупатели, пополненные из общих кошельков: 4</text>
+  <text x="20" y="304" fill="#c9d1d9" xml:space="preserve">  • Серийный дев: в последних 39 транзакциях запусков: 3</text>
+  <text x="20" y="324" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="344" fill="#c9d1d9" xml:space="preserve">Ранние покупатели:</text>
+  <text x="20" y="364" fill="#8b949e" xml:space="preserve">  Bynz…sGof  1.4%  тр-ций: 479  от: —  [связан с девом]</text>
+  <text x="20" y="384" fill="#8b949e" xml:space="preserve">  3xfN…a5zC  1.3%  тр-ций: 13  от: Bynz…sGof  [бандл]  [связан с девом]</text>
+  <text x="20" y="404" fill="#8b949e" xml:space="preserve">  HNXJ…S2Xy  1.3%  тр-ций: 12  от: Bynz…sGof  [бандл]  [связан с девом]</text>
+  <text x="20" y="424" fill="#8b949e" xml:space="preserve">  81SZ…Aeex  1.3%  тр-ций: 14  от: Bynz…sGof  [бандл]  [связан с девом]</text>
+  <text x="20" y="444" fill="#8b949e" xml:space="preserve">  Bs9K…vpPB  1.2%  тр-ций: 13  от: Bynz…sGof  [бандл]  [связан с девом]</text>
+  <text x="20" y="464" fill="#8b949e" xml:space="preserve">  BBun…8NFk  1.2%  тр-ций: 249  от: —</text>
+  <text x="20" y="484" fill="#8b949e" xml:space="preserve">  Eiru…tCnF  1.2%  тр-ций: 243  от: FKV1…7wcy</text>
+  <text x="20" y="504" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="524" fill="#c9d1d9" xml:space="preserve">Общие источники денег:</text>
+  <text x="20" y="544" fill="#8b949e" xml:space="preserve">  Bynz…sGof → кошельков 4: 3xfN…a5zC, HNXJ…S2Xy, 81SZ…Aeex, Bs9K…vpPB</text>
+  <text x="20" y="564" fill="#c9d1d9" xml:space="preserve"></text>
+  <text x="20" y="584" fill="#79c0ff" xml:space="preserve">Solscan: https://solscan.io/token/HovdB6wEhebcqP37973FxhL4LdAWjDf7Z1M3rqvdpump</text>
+</svg>
