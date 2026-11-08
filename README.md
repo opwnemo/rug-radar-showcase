@@ -15,34 +15,35 @@ None of this is visible on the token page. All of it is on chain, and rug-radar 
 
 ## What it checks
 
-| Signal            | What it means                                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------------------- |
-| **Bundle**        | wallets that bought in the same slot the token was created, and how much of the supply they took    |
-| **Dev behaviour** | how much the dev bought at launch, how much is left, and whether it was dumped in the first seconds |
-| **Serial dev**    | how many tokens the dev launched recently                                                           |
-| **Funding graph** | where the dev and the early buyers got their first SOL; shared sources and links back to the dev    |
-| **Early demand**  | whether anyone besides the dev bought in the first 10 seconds                                       |
+| Signal             | What it means                                                                                       |
+| ------------------ | --------------------------------------------------------------------------------------------------- |
+| **Bundle**         | wallets that bought in the same slot the token was created, and how much of the supply they took    |
+| **Dev behaviour**  | how much the dev bought at launch, how much is left, and whether it was dumped in the first seconds |
+| **Launch factory** | how much of the dev wallet's recent activity is launching tokens                                    |
+| **Funding graph**  | where the dev and the early buyers got their first SOL; shared sources and links back to the dev    |
+| **Early demand**   | whether anyone besides the dev bought in the first 10 seconds                                       |
 
 The output is a 0–100 score, a risk band, and a plain-language list of reasons, in Russian or English.
 
 ## Calibrated on real launches
 
-The weights are not guessed. 150 random pump.fun launches were scanned and then checked 40–120 minutes later: did the price ever reach 2× from a sniper's entry (10 seconds after launch), or did it never get past 1.3×?
+The weights are not guessed. 250 random pump.fun launches were scanned and then checked 40–120 minutes later: did the price ever reach 2× from a sniper's entry (10 seconds after launch), or did it never get past 1.3×?
 
-| Risk band | Launches | Dumped   | Went 2×+ |
-| --------- | -------- | -------- | -------- |
-| **high**  | 20       | **100%** | **0%**   |
-| medium    | 20       | 80%      | 15%      |
-| low       | 110      | 81%      | 13%      |
+| Risk band | Launches | Dumped  | Went 2×+ |
+| --------- | -------- | ------- | -------- |
+| **high**  | 62       | **97%** | **3%**   |
+| medium    | 68       | 91%     | 6%       |
+| low       | 120      | 70%     | 17%      |
 
-- Hand-set weights scored like a coin flip (AUC 0.50). Fitted weights: **AUC 0.62 on 5-fold cross-validation** (0.56–0.68 across 20 shuffles).
-- The baseline is brutal: **83% of launches never give a sniper even 1.3×**. rug-radar doesn't promise winners; it flags launches that are worse than that baseline.
+- Hand-set weights scored like a coin flip (AUC 0.50). Fitted weights: **AUC 0.73 on 5-fold cross-validation** (0.69–0.75 across 20 shuffles).
+- New rules are checked on launches they were not designed on. The launch-factory rule was picked on the first 150 launches, then run on 100 fresh ones: **AUC on those went from 0.63 to 0.72**.
+- The baseline is brutal: **82% of launches never give a sniper even 1.3×**. rug-radar doesn't promise winners; it flags launches that are worse than that baseline.
 
 What the data showed, some of it counter-intuitive:
 
-- **"Serial dev" alone means nothing.** 88% of launches come from devs who launched other tokens recently.
-- **A dev selling later is not a red flag.** Launches where the dev had sold out (but not in the first seconds) went 2×+ more often, 15% vs 8%: devs take profit on the ones that work.
-- **The real tells:** a brand-new dev wallet (11 of 11 dumped), early buyers funded from the dev's own source (5 of 5), and nobody but the dev buying in the first 10 seconds (91% dumped vs 77%).
+- **"The dev launched other tokens" means little.** 86% of launches come from such devs. What matters is the share: wallets where launches are 20%+ of recent activity dumped 93% of the time and went 2×+ in 5%, against 77% and 14% for the rest. On the 100 fresh launches: 97% against 74%.
+- **A dev selling later is not a red flag.** Launches where the dev had sold out (but not in the first seconds) went 2×+ more often, 16% vs 5%: devs take profit on the ones that work.
+- **The other real tells:** a brand-new dev wallet (23 of 25 dumped), two or more early buyers funded from the dev's own source (8 of 8), and nobody but the dev buying in the first 10 seconds (91% dumped vs 75%).
 
 Full tables: [CALIBRATION.md](CALIBRATION.md).
 
